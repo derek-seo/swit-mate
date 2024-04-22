@@ -9,7 +9,7 @@ export const APP_INFO = {
   scope: 'task:read+task:write+user:read',
 };
 
-export const CLIENT_SECRET = '';
+export const CLIENT_SECRET = ''; // todo swit developer app secret key
 
-export const AUTH_API = '';
-export const AUTH_TOKEN_API = '';
+export const AUTH_API = 'https://openapi.swit.io/oauth/authorize';
+export const AUTH_TOKEN_API = 'https://openapi.swit.io/oauth/token';
