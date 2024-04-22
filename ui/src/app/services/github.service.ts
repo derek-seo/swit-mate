@@ -6,7 +6,7 @@ export const PAGE_SIZE = 1000;
 @Injectable({ providedIn: 'root' })
 export class GithubService {
   private readonly octokit = new Octokit({
-    auth: '', // todo 환경변수에 추가하는것이 필요함 깃허브 개발자 코드
+    auth: '', // todo github api 키 추가
   });
 
   public async getPullRequests(baseBranch: string, pageNum: number) {

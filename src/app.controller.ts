@@ -43,6 +43,7 @@ export class AppController {
         'https://swit-tech.atlassian.net/rest/api/3/search',
         {
           method: 'POST',
+          // todo Buffer.from(<지라 api 키>)
           headers: {
             Authorization: `Basic ${Buffer.from('').toString('base64')}`,
             Accept: 'application/json',

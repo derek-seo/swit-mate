@@ -1,7 +1,7 @@
 export const APP_INFO = {
   appApiUrl: 'http://localhost:3000',
   fileApiUrl: 'https://files.swit.io',
-  client_id: '',
+  client_id: '', // todo swit client id (developer app id)
   jira_client_id: '',
   jira_client_secret: '',
   response_type: 'code',
